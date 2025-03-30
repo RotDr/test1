@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
         <object placeholders="1" c4Name="Catan pc" c4Type="ContainerScopeBoundary" c4Application="Joc&#xa;Game" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-2">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="80" y="250" width="1670" height="910" as="geometry" />
+            <mxGeometry x="80" y="190" width="2470" height="970" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Beginning menu" c4Type="" c4Technology="" c4Description="The first thing that a player will see after booting the game" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-3">
@@ -141,10 +141,14 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Description="Adds to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-23">
-          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.55;entryY=0.964;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.908;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vc-hCGxswRLO5xnwqPGK-19" target="vc-hCGxswRLO5xnwqPGK-20">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.908;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
             <mxGeometry width="240" relative="1" as="geometry">
-              <mxPoint x="1470" y="900" as="sourcePoint" />
-              <mxPoint x="1100" y="730" as="targetPoint" />
+              <mxPoint x="1490.0500000000002" y="972.65" as="sourcePoint" />
+              <mxPoint x="1792" y="630" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="1792" y="973" />
+                <mxPoint x="1792" y="670" />
+              </Array>
             </mxGeometry>
           </mxCell>
         </object>
@@ -164,6 +168,170 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <object placeholders="1" c4Name="Back End database" c4Type="Software System" c4Description="The back end database, contains the stats of the players" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-27">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="180" y="890" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Modifies" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-28">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.039;exitY=1.031;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.011;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vc-hCGxswRLO5xnwqPGK-6" target="vc-hCGxswRLO5xnwqPGK-27">
+            <mxGeometry x="0.1568" width="240" relative="1" as="geometry">
+              <mxPoint x="860" y="730" as="sourcePoint" />
+              <mxPoint x="1100" y="730" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="769" y="670" />
+                <mxPoint x="430" y="670" />
+                <mxPoint x="430" y="960" />
+                <mxPoint x="423" y="960" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Gives info" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-29">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="310" y="880" as="sourcePoint" />
+              <mxPoint x="310" y="610" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Back End Systax" c4Type="Software System" c4Description="The Back End Systax that check the rules of the games" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-30">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="990" y="1140" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Refuses or accepts command" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-31">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.453;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vc-hCGxswRLO5xnwqPGK-19">
+            <mxGeometry x="0.0833" width="240" relative="1" as="geometry">
+              <mxPoint x="1230" y="1199.33" as="sourcePoint" />
+              <mxPoint x="1470" y="1199.33" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="1359" y="1199" />
+              </Array>
+              <mxPoint x="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Sends for verification" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-32">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="vc-hCGxswRLO5xnwqPGK-30">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1320" y="1034" as="sourcePoint" />
+              <mxPoint x="1650" y="1090" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Back End database" c4Type="Software System" c4Description="The back end database, contains the stats of the players" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-33">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1680" y="500" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Generates" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-34">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vc-hCGxswRLO5xnwqPGK-33" target="vc-hCGxswRLO5xnwqPGK-20">
+            <mxGeometry x="0.0833" width="240" relative="1" as="geometry">
+              <mxPoint x="1560" y="650" as="sourcePoint" />
+              <mxPoint x="1800" y="650" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="1580" y="560" />
+              </Array>
+              <mxPoint x="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Sends for verification" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-36">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.461;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vc-hCGxswRLO5xnwqPGK-16" target="vc-hCGxswRLO5xnwqPGK-30">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="830" y="1110" as="sourcePoint" />
+              <mxPoint x="620" y="1216" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Refuses or accepts command" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-37">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.989;entryY=0.864;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.358;exitY=0.036;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vc-hCGxswRLO5xnwqPGK-30" target="vc-hCGxswRLO5xnwqPGK-16">
+            <mxGeometry x="0.0833" width="240" relative="1" as="geometry">
+              <mxPoint x="970" y="1070" as="sourcePoint" />
+              <mxPoint x="1099" y="897.6700000000001" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="1076" y="1027" />
+                <mxPoint x="977" y="1027" />
+              </Array>
+              <mxPoint x="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Roll dice event" c4Type="Component" c4Technology="e.g. Spring Service" c4Description="At every turn, there will be a dice roll." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-38">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1330" y="270" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Triggers at every turn" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-39">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.994;exitY=0.086;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vc-hCGxswRLO5xnwqPGK-6" target="vc-hCGxswRLO5xnwqPGK-38">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="860" y="460" as="sourcePoint" />
+              <mxPoint x="1100" y="460" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="1160" y="500" />
+                <mxPoint x="1160" y="350" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Triggers animation" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-40">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.461;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vc-hCGxswRLO5xnwqPGK-38" target="vc-hCGxswRLO5xnwqPGK-20">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1390" y="440" as="sourcePoint" />
+              <mxPoint x="1630" y="440" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Sends result" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-41">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.567;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vc-hCGxswRLO5xnwqPGK-33">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1530" y="329.33000000000004" as="sourcePoint" />
+              <mxPoint x="1770" y="329.33000000000004" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Thief event screen" c4Type="Container" c4Technology="e.g. SpringBoot, ElasticSearch, etc." c4Description="Every player will get a notification that they need to cease half of their resource cards if the have more than 7 cards" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-42">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1930" y="210" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Triggers at a 7" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-43">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1570" y="290" as="sourcePoint" />
+              <mxPoint x="1930" y="260" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="1570" y="270" />
+                <mxPoint x="1931" y="270" />
+                <mxPoint x="1931" y="260" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Modifies" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-44">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vc-hCGxswRLO5xnwqPGK-33">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="2010" y="328.67" as="sourcePoint" />
+              <mxPoint x="2250" y="328.67" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Thief event screen 2" c4Type="Container" c4Technology="e.g. SpringBoot, ElasticSearch, etc." c4Description="The player chooses to move the thief and what they want to steal" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-45">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="1930" y="920" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Description="Extends to" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;" id="vc-hCGxswRLO5xnwqPGK-46">
+          <mxCell style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="vc-hCGxswRLO5xnwqPGK-42">
+            <mxGeometry width="240" relative="1" as="geometry">
+              <mxPoint x="1890" y="900" as="sourcePoint" />
+              <mxPoint x="2050" y="920" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
